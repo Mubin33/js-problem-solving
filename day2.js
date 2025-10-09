@@ -10,14 +10,15 @@ sum = 0
 
 
 
-
 const summAll=(...params)=>{
     console.log(params)
-    params.forEach(element=>{
-        sum += element   
-    }) 
+    let sum =0
+    params.forEach(element => {
+        sum += element
+    });
     console.log(sum)
 }
+
  
 
-summAll(1, 2, 3, 4, 5,10)
+summAll(1,1, 2, 3, 4, 5,10)
