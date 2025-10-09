@@ -23,6 +23,14 @@ arr = [1, 2, 1];
 // }; 
 
 
+const arrayReplace=(arr, selectNum, replaceNum)=>{
+  arr.forEach((element, index) => {
+    if(element === selectNum){
+      arr[index] = replaceNum
+    }
+  });
+  return arr
+}
 
 
 
@@ -32,5 +40,4 @@ arr = [1, 2, 1];
 
 
 
-
-console.log(arrayReplace(arr, 3, 4));
+console.log(arrayReplace(arr, 1, 4));
