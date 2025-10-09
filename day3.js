@@ -28,17 +28,15 @@ picture = ['abcs', 'ded', 'null', 90]
 
 
 
-
-const addBorder=(arr)=>{
-    let wall = '*'.repeat(arr[0].length)
+ const addBorder=(arr)=>{
+    let wall = '*'.repeat(4)
     arr.unshift(wall)
     arr.push(wall)
-    for(let i = 1; i<arr.length - 1; i++){
+     for( let i = 1; i<arr.length - 1; i++){
         arr[i] = '*'.concat(arr[i], '*')
-    }
-
-    return arr
-}
+     }
+     return arr
+ }
 
 
 
