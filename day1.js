@@ -10,15 +10,27 @@ arr = [1, 2, 1];
 //     console.log(inArr)
 // }
 
-const arrayReplace = (arr, selectNumber, ReplaceNum) => {
-  let find = arr.filter((e) => e === selectNumber);
-  if (find.length === 0)
-    console.log("sorry selected number is not present in array");
-  arr.forEach((element, index) => {
-    if (element === selectNumber) {
-      arr[index] = ReplaceNum;
-    }
-  });
-  return arr;
-}; 
+// const arrayReplace = (arr, selectNumber, ReplaceNum) => {
+//   let find = arr.filter((e) => e === selectNumber);
+//   if (find.length === 0)
+//     console.log("sorry selected number is not present in array");
+//   arr.forEach((element, index) => {
+//     if (element === selectNumber) {
+//       arr[index] = ReplaceNum;
+//     }
+//   });
+//   return arr;
+// }; 
+
+
+
+
+
+
+
+
+
+
+
+
 console.log(arrayReplace(arr, 3, 4));
